@@ -1,0 +1,7 @@
+requests
+beautifulsoup4
+markdown2
+pdfkit
+python-dotenv
+google-generativeai
+selenium
