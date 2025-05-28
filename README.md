@@ -26,30 +26,15 @@ Creating a structured, printable PDF report from Markdown
 
 🚀 Getting Started
 1. Clone the Repository
-bash
-Kopyala
-Düzenle
-git clone https://github.com/yourusername/web-research-summarizer.git
-cd web-research-summarizer
+    git clone https://github.com/yourusername/web-research-summarizer.git
+    cd web-research-summarizer
 2. Install Dependencies
-bash
-Kopyala
-Düzenle
-pip install -r requirements.txt
+    pip install -r requirements.txt
 3. Set Up Environment Variables
 Create a .env file in the project root:
-
-ini
-Kopyala
-Düzenle
-GENAI_API_KEY=your_actual_genai_api_key
-PDFKIT_PATH=/usr/local/bin/wkhtmltopdf  # Update based on your OS
-You can refer to .env.example for the required variables.
-
+    GENAI_API_KEY=your_actual_genai_api_key
+    PDFKIT_PATH=/usr/local/bin/wkhtmltopdf  # Update based on your OS
 🗂 Project Structure
-bash
-Kopyala
-Düzenle
 web-research-summarizer/
 │
 ├── main.py               # Main script for automation
@@ -57,11 +42,9 @@ web-research-summarizer/
 ├── README.md             # Project documentation
 ├── requirements.txt      # Python dependencies
 └── screenshots/          # Stores screenshots of visited pages
+
 🖼️ Screenshots Folder
 During execution, the screenshots/ folder is automatically populated:
-
-Kopyala
-Düzenle
 screenshots/
 ├── site_0.png
 ├── site_1.png
@@ -95,3 +78,5 @@ Feel free to fork the repo and submit pull requests. Issues and suggestions are 
 
 📄 License
 This project is licensed under the MIT License.
+
+
